@@ -18,10 +18,10 @@ If none of the numbers from 1 to 9 result in a valid evaluation, then false is r
 8. If no recursive call return true, return false overall.
 9. Finally, if no unassigned location is left, return true.
 
-# Time Complexity
+## Time Complexity
 O(9 ^ (n * n))
 
-# Space Complexity
-## O(n ^ 2)
+## Space Complexity
+O(n ^ 2)
 
 # Further
