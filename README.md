@@ -1,2 +1,6 @@
 # sudoku-solver
-An application that solves Sudoku puzzles using backtracking. Written in C++.
+This simple C++ application solves Sudoku puzzles.
+It uses the concept of Backtracking and Bit Masks.
+
+# Intuition:
+
