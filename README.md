@@ -3,8 +3,8 @@ This simple C++ application solves Sudoku puzzles.
 It uses the concept of Backtracking and Bit Masks.
 
 # Intuition
-The Sudoku can be solved by checking for the values one at a time at empty cells. Before every assignment, the value is checked whether or not the sudoku will be valid after putting in the value. This is done by checking if the value going to be assigned is present in the current row, column or the current 3x3 sub-matrix, according to the Sudokyu rules.
-When the number is checked whether it is valid or not, it is assigned in it's proper place. If the number results in an invalid Sudoku, the next number is tried for that particular empty cell.
+The Sudoku can be solved by checking for the values one at a time at empty cells. Before every assignment, the value is checked whether or not the sudoku will be valid after putting in the value. This is done by checking if the value going to be assigned is present in the current row, column or the current 3x3 sub-matrix, according to the Sudoku rules.
+When the number is checked whether it is valid or not, it is assigned in its proper place. If the number results in an invalid Sudoku, the next number is tried for that particular empty cell.
 If none of the numbers from 1 to 9 result in a valid evaluation, then false is returned - meaning that the sudoku cannot be solved and has no valid solution.
 
 # Algorithm
